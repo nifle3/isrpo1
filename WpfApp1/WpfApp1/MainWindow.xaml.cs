@@ -24,5 +24,12 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            var window = new newWindow();
+            window.Show();
+            
+        }
     }
 }

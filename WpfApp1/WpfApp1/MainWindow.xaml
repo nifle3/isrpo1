@@ -18,6 +18,6 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         
-        <Button Grid.Row="1" Grid.Column="1">QWE</Button>
+        <Button Grid.Row="1" Grid.Column="1" Click="ButtonBase_OnClick">QWE</Button>
     </Grid>
 </Window>
